@@ -39,7 +39,7 @@
             android:text="Map" />
 
         <Button
-            android:id="@+id/buttonSettings"
+            android:id="@+id/settingsButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -120,6 +120,7 @@
                 android:hint="Name"
                 android:imeOptions="actionNext"
                 android:inputType="textPersonName"
+                android:minHeight="48dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textContact" />
 
@@ -145,6 +146,7 @@
                 android:hint="Address"
                 android:imeOptions="actionNext"
                 android:inputType="textCapWords"
+                android:minHeight="48dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textAddress" />
 
@@ -159,6 +161,7 @@
                 android:hint="City"
                 android:imeOptions="actionNext"
                 android:inputType="textCapWords"
+                android:minHeight="48dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editAddress" />
 
@@ -173,6 +176,8 @@
                 android:hint="State"
                 android:imeOptions="actionNext"
                 android:inputType="textCapCharacters"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
                 app:layout_constraintStart_toEndOf="@+id/editCity"
                 app:layout_constraintTop_toBottomOf="@+id/editAddress" />
 
@@ -187,6 +192,7 @@
                 android:hint="Zipcode"
                 android:imeOptions="actionNext"
                 android:inputType="number"
+                android:minHeight="48dp"
                 app:layout_constraintStart_toEndOf="@+id/editState"
                 app:layout_constraintTop_toBottomOf="@+id/editAddress" />
 
@@ -212,6 +218,7 @@
                 android:hint="Home Phone"
                 android:imeOptions="actionNext"
                 android:inputType="phone"
+                android:minHeight="48dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textHome" />
 
@@ -237,6 +244,7 @@
                 android:hint="Cell Phone"
                 android:imeOptions="actionNext"
                 android:inputType="phone"
+                android:minHeight="48dp"
                 app:layout_constraintStart_toStartOf="@+id/textCell"
                 app:layout_constraintTop_toBottomOf="@+id/textCell" />
 
@@ -262,6 +270,7 @@
                 android:hint="Email Address"
                 android:imeOptions="actionNext"
                 android:inputType="textEmailAddress"
+                android:minHeight="48dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textEmail" />
 
